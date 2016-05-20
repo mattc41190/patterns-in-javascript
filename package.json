@@ -1,0 +1,18 @@
+{
+  "name": "patterns-in-javascript",
+  "version": "1.0.0",
+  "description": "Learning patterns in  JS using the book Learning JavaScript Design Patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "jasmine",
+    "patterns"
+  ],
+  "author": "MCale",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.4.1"
+  }
+}
