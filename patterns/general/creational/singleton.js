@@ -1,3 +1,4 @@
+// Singleton Pattern
 var SingletonTester = (function () {
 
   // options: an object containing configuration options for the singleton
