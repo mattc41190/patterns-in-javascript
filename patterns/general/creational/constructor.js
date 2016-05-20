@@ -1,12 +1,12 @@
 // Constructor Pattern
-var Car =  function( model, year, miles) {
-    this.model = model;
-    this.year = year;
-    this.miles = miles
+var City =  function(area, population, name) {
+    this.area = area;
+    this.population = population;
+    this.name = name
   }
 
-Car.prototype.toString = function () {
-  return this.model + " has done " + this.miles + " miles";
+City.prototype.toString = function () {
+  return this.name + " has a population of " + this.population;
 }
 
-module.exports = Car;
+module.exports = City;
